@@ -11,6 +11,6 @@ POST `/api/stacks` 🔑
 
 create a new stack
 
-PUT `/api/stacks` 🔑
+PUT `/api/stacks/{id}` 🔑
 
 update a stack
