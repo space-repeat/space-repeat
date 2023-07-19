@@ -1,4 +1,4 @@
 ## TODOS
 
 
-- [] design an API for the backend
+- [ ] design an API for the backend
