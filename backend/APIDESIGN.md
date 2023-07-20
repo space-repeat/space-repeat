@@ -1,5 +1,6 @@
 ## API Structure
 
+![ER Diagram of database](../diagrams/er-space-repeat.drawio.png)
 
 ### Stacks - prefix("`/api/stacks`")
 **GET** ``
