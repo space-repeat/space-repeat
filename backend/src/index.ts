@@ -13,6 +13,7 @@ declare global {
 
 const PORT = Number(process.env.PORT);
 
+
 if (!PORT) {
   throw new Error("Please define PORT in .env");
 }
