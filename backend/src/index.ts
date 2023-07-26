@@ -6,6 +6,7 @@ declare global {
     interface ProcessEnv {
       PORT: string;
       DATABASE_URL: string;
+      CLERK_JWT_PUBLICK_KEY:string
     }
   }
 }
