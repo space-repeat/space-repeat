@@ -1,7 +1,7 @@
 import express, { Response } from "express";
 import cors from "cors";
-import stacksRouter from "./routers/stacksRouter";
 import morgan from "morgan"
+import { stackRouter } from "./modules/stack";
 
 const app = express();
 
@@ -14,7 +14,7 @@ app.use(cors())
 
 // route splitting
 
-app.use("/api/v1/stacks", stacksRouter)
+app.use("/api/v1/stacks", stackRouter)
 
 
 // welcome route on /
