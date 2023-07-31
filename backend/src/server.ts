@@ -13,7 +13,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 // route splitting
-
 app.use('/api/v1/stacks', stackRouter);
 
 app.use('/webhook/handler/clerk', clerkWebhookHandler);
