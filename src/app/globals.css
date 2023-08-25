@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   body {
-    @apply bg-zinc-900 text-zinc-600 ;
+    @apply bg-black  text-zinc-200;
   }
 }
